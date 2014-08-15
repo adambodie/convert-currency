@@ -631,7 +631,7 @@ public class USDinfo extends javax.swing.JFrame implements ActionListener {
                         .addComponent(subunitLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(subunitLabel2)))
-                .addGap(256, 256, 256))
+                .addGap(208, 208, 208))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
