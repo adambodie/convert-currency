@@ -18,8 +18,8 @@ public class CAD {
      * @param value
      */
 
-   final Double [] rates = {0.9821, 0.6866, 0.5432, 94.1771, 0.9186, 
-       32.6706, 12.0726, 5.664, 55.2983};
+   final Double [] rates = {0.9842, 0.6865, 0.5498, 94.037, 0.9174, 
+       33.0453, 11.9887, 5.6401, 55.7543};
    Double convert;
    Double newCurrency;
    String newSymbol;
