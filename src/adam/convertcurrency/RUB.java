@@ -18,8 +18,8 @@ public class RUB {
      * @param value
      */
 
-   final Double [] rates = {0.0301, 0.0306, 0.021, 0.0166, 
-       2.8826, 0.0281, 0.3702, 0.1737, 1.6961};
+   final Double [] rates = {0.0298, 0.0303, 0.0208, 0.0166, 
+       2.8457, 0.0278, 0.3628, 0.1707, 1.6872};
    Double convert;
    Double newCurrency;
    String newSymbol;

@@ -17,8 +17,8 @@ public class MXN {
      * @param value
      */
 
-   final Double [] rates = {0.0815, 0.0829, 0.0567, 0.0449, 7.8116, 
-       2.7023, 0.076, 0.4693, 4.5804};
+   final Double [] rates = {0.0821, 0.0834, 0.0573, 0.0459, 7.8438, 
+       0.0765, 2.7564, 0.4705, 4.6506};
    Double convert;
    Double newCurrency;
    String newSymbol;

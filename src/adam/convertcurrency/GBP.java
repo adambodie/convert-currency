@@ -18,8 +18,8 @@ public class GBP {
      * @param value
      */
 
-   final Double [] rates = {1.808, 1.8411, 1.2641, 173.385, 1.6911, 
-       60.1482, 22.2706, 10.4506, 102.0334};
+   final Double [] rates = {1.79, 1.8188, 1.2486, 171.0341, 1.6685, 
+       60.1026, 21.805, 10.2582, 101.4058};
    Double convert;
    Double newCurrency;
    String newSymbol;

@@ -18,8 +18,8 @@ public class USD {
      * @param value
      */
    
-   final Double [] rates = {1.0691, 1.0886, 0.7475, 0.5913, 
-       102.525, 35.5665, 13.1656, 6.1761, 60.3};
+   final Double [] rates = {1.0728, 1.0901, 0.7483, 0.5993, 
+       102.505, 36.021, 13.0683, 6.148, 60.775};
    Double convert;
    Double newCurrency;
    String newSymbol;

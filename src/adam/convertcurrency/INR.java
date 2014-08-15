@@ -18,7 +18,8 @@ public class INR {
      * @param value
      */
 
-   final Double [] rates = {0.0178, 0.0181, 0.0124, 0.0098, 1.7039, 0.0166, 0.5896, 0.2183, 0.1024};
+   final Double [] rates = {0.0177, 0.0179, 0.0123, 0.0099, 1.6866, 
+       0.0165, 0.5927, 0.215, 0.1012};
    Double convert;
    Double newCurrency;
    String newSymbol;

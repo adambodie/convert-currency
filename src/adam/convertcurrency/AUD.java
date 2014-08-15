@@ -17,8 +17,8 @@ public class AUD {
      * @param value
      */
 
-   final Double [] rates = {1.0183, 0.6991, 0.5531, 95.8967, 0.9353, 
-       33.2671, 12.2666, 5.7617, 56.2478};
+   final Double [] rates = {1.0161, 0.6976, 0.5587, 95.5496, 0.9321, 
+       33.5768, 12.1816, 5.7308, 56.6511};
    Double convert;
    Double newCurrency;
    String newSymbol;

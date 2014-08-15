@@ -18,8 +18,8 @@ public class JPY {
      * @param value
      */
 
-   final Double [] rates = {0.0104, 0.0106, 0.0073, 0.0058, 0.0098, 
-       0.3469, 0.1281, 0.0601, 0.5869};
+   final Double [] rates = {0.0105, 0.0106, 0.0073, 0.0058, 0.0098, 
+       0.3514, 0.1275, 0.06, 0.5929};
    Double convert;
    Double newCurrency;
    String newSymbol;
