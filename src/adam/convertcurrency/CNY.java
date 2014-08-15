@@ -18,8 +18,8 @@ public class CNY {
      * @param value
      */
 
-   final Double [] rates = {0.1736, 0.1766, 0.1208, 0.0957, 16.6395, 
-       0.1619, 5.7565, 2.131, 9.7644};
+   final Double [] rates = {0.1745, 0.1773, 0.1217, 0.0975, 16.6729, 
+       0.1627, 5.859, 2.1256, 9.8853};
    Double convert;
    Double newCurrency;
    String newSymbol;
