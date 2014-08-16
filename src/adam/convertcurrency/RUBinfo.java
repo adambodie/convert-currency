@@ -79,10 +79,10 @@ public class RUBinfo extends javax.swing.JFrame implements ActionListener {
         jPanel1 = new javax.swing.JPanel();
         officialUserLabel = new javax.swing.JLabel();
         unofficialUserLabel = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        ruLabel = new javax.swing.JLabel();
+        abLabel = new javax.swing.JLabel();
+        soLabel = new javax.swing.JLabel();
+        beLabel = new javax.swing.JLabel();
         otherTab = new javax.swing.JPanel();
         isoLabel = new javax.swing.JLabel();
         bankLabel = new javax.swing.JLabel();
@@ -95,7 +95,7 @@ public class RUBinfo extends javax.swing.JFrame implements ActionListener {
         bankLabel2 = new javax.swing.JLabel();
         isoLabel2 = new javax.swing.JLabel();
         symbolLabel = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        symbolLabel2 = new javax.swing.JLabel();
         rubInfoTitle = new javax.swing.JLabel();
 
         setTitle("Russian Ruble");
@@ -284,13 +284,13 @@ public class RUBinfo extends javax.swing.JFrame implements ActionListener {
         unofficialUserLabel.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         unofficialUserLabel.setText("Unofficial Users");
 
-        jLabel1.setText("Russia");
+        ruLabel.setText("Russia");
 
-        jLabel2.setText("Abkhazia");
+        abLabel.setText("Abkhazia");
 
-        jLabel3.setText("South Ossetia");
+        soLabel.setText("South Ossetia");
 
-        jLabel4.setText("Belarus");
+        beLabel.setText("Belarus");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -299,12 +299,12 @@ public class RUBinfo extends javax.swing.JFrame implements ActionListener {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(40, 40, 40)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4)
+                    .addComponent(beLabel)
                     .addComponent(officialUserLabel)
                     .addComponent(unofficialUserLabel)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3))
+                    .addComponent(ruLabel)
+                    .addComponent(abLabel)
+                    .addComponent(soLabel))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -313,15 +313,15 @@ public class RUBinfo extends javax.swing.JFrame implements ActionListener {
                 .addGap(40, 40, 40)
                 .addComponent(officialUserLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel1)
+                .addComponent(ruLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2)
+                .addComponent(abLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3)
+                .addComponent(soLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(unofficialUserLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel4)
+                .addComponent(beLabel)
                 .addContainerGap(421, Short.MAX_VALUE))
         );
 
@@ -362,7 +362,7 @@ public class RUBinfo extends javax.swing.JFrame implements ActionListener {
 
         symbolLabel.setText("Official Currency Symbol:");
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/RUBsymbol.gif"))); // NOI18N
+        symbolLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/RUBsymbol.gif"))); // NOI18N
 
         javax.swing.GroupLayout otherTabLayout = new javax.swing.GroupLayout(otherTab);
         otherTab.setLayout(otherTabLayout);
@@ -374,7 +374,7 @@ public class RUBinfo extends javax.swing.JFrame implements ActionListener {
                     .addGroup(otherTabLayout.createSequentialGroup()
                         .addComponent(symbolLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel5))
+                        .addComponent(symbolLabel2))
                     .addGroup(otherTabLayout.createSequentialGroup()
                         .addComponent(subunitLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -423,7 +423,7 @@ public class RUBinfo extends javax.swing.JFrame implements ActionListener {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(otherTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(symbolLabel)
-                    .addComponent(jLabel5))
+                    .addComponent(symbolLabel2))
                 .addContainerGap())
         );
 
@@ -491,10 +491,12 @@ public class RUBinfo extends javax.swing.JFrame implements ActionListener {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel abLabel;
     private javax.swing.JLabel bankLabel;
     private javax.swing.JLabel bankLabel2;
     private javax.swing.JLabel banknote;
     private javax.swing.JLabel banknotePicture;
+    private javax.swing.JLabel beLabel;
     private javax.swing.JLabel coin;
     private javax.swing.JLabel coinPicture;
     private javax.swing.JLabel inflationLabel;
@@ -502,11 +504,6 @@ public class RUBinfo extends javax.swing.JFrame implements ActionListener {
     private javax.swing.JPanel infoTab;
     private javax.swing.JLabel isoLabel;
     private javax.swing.JLabel isoLabel2;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator1;
@@ -529,12 +526,15 @@ public class RUBinfo extends javax.swing.JFrame implements ActionListener {
     private javax.swing.JRadioButton radioButton50k;
     private javax.swing.JRadioButton radioButton5c;
     private javax.swing.JRadioButton radioButton5k;
+    private javax.swing.JLabel ruLabel;
     private javax.swing.ButtonGroup rubButtonGroup;
     private javax.swing.JTabbedPane rubInfoTab;
     private javax.swing.JLabel rubInfoTitle;
+    private javax.swing.JLabel soLabel;
     private javax.swing.JLabel subunitLabel;
     private javax.swing.JLabel subunitLabel2;
     private javax.swing.JLabel symbolLabel;
+    private javax.swing.JLabel symbolLabel2;
     private javax.swing.JLabel unofficialUserLabel;
     private javax.swing.JPanel userTab;
     // End of variables declaration//GEN-END:variables
