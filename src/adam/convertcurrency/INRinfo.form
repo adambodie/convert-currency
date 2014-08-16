@@ -365,7 +365,7 @@
                                   <Component id="officialUserLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="unofficialUserLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="indLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="indLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bhuLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
                           </Group>
@@ -381,7 +381,7 @@
                               <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
                               <Component id="unofficialUserLabel" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="indLabel1" min="-2" max="-2" attributes="0"/>
+                              <Component id="bhuLabel" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="310" max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -409,7 +409,7 @@
                         <Property name="text" type="java.lang.String" value="India"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JLabel" name="indLabel1">
+                    <Component class="javax.swing.JLabel" name="bhuLabel">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Bhutan"/>
                       </Properties>

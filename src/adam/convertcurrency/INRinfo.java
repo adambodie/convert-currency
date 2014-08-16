@@ -74,7 +74,7 @@ public class INRinfo extends javax.swing.JFrame implements ActionListener {
         officialUserLabel = new javax.swing.JLabel();
         unofficialUserLabel = new javax.swing.JLabel();
         indLabel = new javax.swing.JLabel();
-        indLabel1 = new javax.swing.JLabel();
+        bhuLabel = new javax.swing.JLabel();
         otherTab = new javax.swing.JPanel();
         isoLabel = new javax.swing.JLabel();
         isoLabel2 = new javax.swing.JLabel();
@@ -253,7 +253,7 @@ public class INRinfo extends javax.swing.JFrame implements ActionListener {
 
         indLabel.setText("India");
 
-        indLabel1.setText("Bhutan");
+        bhuLabel.setText("Bhutan");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -265,7 +265,7 @@ public class INRinfo extends javax.swing.JFrame implements ActionListener {
                     .addComponent(officialUserLabel)
                     .addComponent(unofficialUserLabel)
                     .addComponent(indLabel)
-                    .addComponent(indLabel1))
+                    .addComponent(bhuLabel))
                 .addGap(149, 149, 149))
         );
         jPanel1Layout.setVerticalGroup(
@@ -278,7 +278,7 @@ public class INRinfo extends javax.swing.JFrame implements ActionListener {
                 .addGap(18, 18, 18)
                 .addComponent(unofficialUserLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(indLabel1)
+                .addComponent(bhuLabel)
                 .addGap(310, 310, 310))
         );
 
@@ -470,10 +470,10 @@ public class INRinfo extends javax.swing.JFrame implements ActionListener {
     private javax.swing.JLabel bankLabel2;
     private javax.swing.JLabel banknote;
     private javax.swing.JLabel banknotePicture;
+    private javax.swing.JLabel bhuLabel;
     private javax.swing.JLabel coin;
     private javax.swing.JLabel coinPicture;
     private javax.swing.JLabel indLabel;
-    private javax.swing.JLabel indLabel1;
     private javax.swing.JLabel inflationLabel;
     private javax.swing.JLabel inflationLabel2;
     private javax.swing.JPanel infoTab;
