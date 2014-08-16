@@ -31,7 +31,7 @@ public class MXNinfo extends javax.swing.JFrame implements ActionListener {
     static String mxn5cc = "MXN5cc";
     static String mxn10cc = "MXN10cc";
     static String mxn20cc = "MXN20cc";
-    private String mxn50cc = "MXN50cc";
+    static String mxn50cc = "MXN50cc";
     static String mxn20 = "MXN20";
     static String mxn50 = "MXN50";
     static String mxn100 = "MXN100";
