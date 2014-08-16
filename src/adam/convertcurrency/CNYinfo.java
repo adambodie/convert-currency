@@ -81,12 +81,12 @@ public class CNYinfo extends javax.swing.JFrame implements ActionListener {
         jPanel1 = new javax.swing.JPanel();
         officialUserLabel = new javax.swing.JLabel();
         unofficialUserLabel = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
+        chLabel = new javax.swing.JLabel();
+        burLabel = new javax.swing.JLabel();
+        hkLabel = new javax.swing.JLabel();
+        macLabel = new javax.swing.JLabel();
+        nkLabel = new javax.swing.JLabel();
+        zimLabel = new javax.swing.JLabel();
         otherTab = new javax.swing.JPanel();
         isoLabel2 = new javax.swing.JLabel();
         bankLabel2 = new javax.swing.JLabel();
@@ -297,17 +297,17 @@ public class CNYinfo extends javax.swing.JFrame implements ActionListener {
         unofficialUserLabel.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         unofficialUserLabel.setText("Unofficial Users");
 
-        jLabel1.setText("China");
+        chLabel.setText("China");
 
-        jLabel2.setText("Burma");
+        burLabel.setText("Burma");
 
-        jLabel3.setText("Hong Kong");
+        hkLabel.setText("Hong Kong");
 
-        jLabel4.setText("Macau");
+        macLabel.setText("Macau");
 
-        jLabel5.setText("North Korea");
+        nkLabel.setText("North Korea");
 
-        jLabel6.setText("Zimbabwe");
+        zimLabel.setText("Zimbabwe");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -316,19 +316,19 @@ public class CNYinfo extends javax.swing.JFrame implements ActionListener {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(40, 40, 40)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4)
+                    .addComponent(macLabel)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(1, 1, 1)
-                        .addComponent(jLabel5))
-                    .addComponent(jLabel6)
+                        .addComponent(nkLabel))
+                    .addComponent(zimLabel)
                     .addComponent(officialUserLabel)
-                    .addComponent(jLabel1)
+                    .addComponent(chLabel)
                     .addComponent(unofficialUserLabel)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(jLabel3)
+                        .addComponent(hkLabel)
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                             .addGap(1, 1, 1)
-                            .addComponent(jLabel2))))
+                            .addComponent(burLabel))))
                 .addGap(280, 280, 280))
         );
         jPanel1Layout.setVerticalGroup(
@@ -337,19 +337,19 @@ public class CNYinfo extends javax.swing.JFrame implements ActionListener {
                 .addGap(40, 40, 40)
                 .addComponent(officialUserLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel1)
+                .addComponent(chLabel)
                 .addGap(18, 18, 18)
                 .addComponent(unofficialUserLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2)
+                .addComponent(burLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3)
+                .addComponent(hkLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel4)
+                .addComponent(macLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel5)
+                .addComponent(nkLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel6)
+                .addComponent(zimLabel)
                 .addGap(245, 245, 245))
         );
 
@@ -488,7 +488,7 @@ public class CNYinfo extends javax.swing.JFrame implements ActionListener {
                 .addContainerGap()
                 .addComponent(cnyInfoTitle)
                 .addGap(18, 18, 18)
-                .addComponent(cnyInfoTab, javax.swing.GroupLayout.DEFAULT_SIZE, 609, Short.MAX_VALUE))
+                .addComponent(cnyInfoTab))
         );
 
         pack();
@@ -534,25 +534,24 @@ public class CNYinfo extends javax.swing.JFrame implements ActionListener {
     private javax.swing.JLabel bankLabel2;
     private javax.swing.JLabel banknote;
     private javax.swing.JLabel banknotePicture;
+    private javax.swing.JLabel burLabel;
+    private javax.swing.JLabel chLabel;
     private javax.swing.ButtonGroup cnyButtonGroup;
     private javax.swing.JTabbedPane cnyInfoTab;
     private javax.swing.JLabel cnyInfoTitle;
     private javax.swing.JLabel coin;
     private javax.swing.JLabel coinPicture;
+    private javax.swing.JLabel hkLabel;
     private javax.swing.JLabel inflationLabel;
     private javax.swing.JLabel inflationLabel2;
     private javax.swing.JPanel infoTab;
     private javax.swing.JLabel isoLabel;
     private javax.swing.JLabel isoLabel2;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JLabel macLabel;
+    private javax.swing.JLabel nkLabel;
     private javax.swing.JLabel officialUserLabel;
     private javax.swing.JPanel otherTab;
     private javax.swing.JLabel pegLabel;
@@ -581,6 +580,7 @@ public class CNYinfo extends javax.swing.JFrame implements ActionListener {
     private javax.swing.JLabel subunitLabel4;
     private javax.swing.JLabel unofficialUserLabel;
     private javax.swing.JPanel userTab;
+    private javax.swing.JLabel zimLabel;
     // End of variables declaration//GEN-END:variables
 
     @Override
