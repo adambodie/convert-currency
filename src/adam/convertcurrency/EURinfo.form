@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="eurButtonGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="title" type="java.lang.String" value="Euro"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="eurInfoTab" alignment="1" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
+              <Component id="eurInfoTitle" min="-2" pref="230" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="eurInfoTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="eurInfoTab" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="eurInfoTab">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="infoTab">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Info">
+                <Property name="tabTitle" type="java.lang.String" value="Info"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jSeparator1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                              <Component id="radioButton5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton20" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton50" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton100" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton200" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton500" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                              <Component id="radioButton1c" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton2c" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton5c" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton10c" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton20c" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton50c" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="radioButton2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="banknote" alignment="0" min="-2" pref="375" max="-2" attributes="0"/>
+                                  <Component id="banknotePicture" min="-2" pref="375" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="coin" alignment="0" min="-2" pref="375" max="-2" attributes="0"/>
+                                  <Component id="coinPicture" min="-2" pref="375" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="banknote" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="radioButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton50" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton100" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton200" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton500" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="banknotePicture" min="-2" pref="180" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="coin" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="radioButton5c" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton10c" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton20c" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton50c" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton2c" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioButton1c" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="coinPicture" min="-2" pref="210" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JRadioButton" name="radioButton5">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x20ac;5"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur5)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton5.setActionCommand(eur5);&#xa;radioButton5.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton10">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x20ac;10"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur10)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton10.setActionCommand(eur10);&#xa;radioButton10.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton20">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x20ac;20"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur20)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton20.setActionCommand(eur20);&#xa;radioButton20.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton50">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x20ac;50"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur50)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton50.setActionCommand(eur50);&#xa;radioButton50.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton100">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x20ac;100"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur100)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton100.setActionCommand(eur100);&#xa;radioButton100.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton200">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x20ac;200"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur200)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton200.setActionCommand(eur200);&#xa;radioButton200.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton500">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x20ac;500"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur500)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton500.setActionCommand(eur500);&#xa;radioButton500.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="banknotePicture">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JLabel(createImageIcon(&quot;&quot;))"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="coin">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Coin"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton1c">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="1c"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur1c)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton1c.setActionCommand(eur1c);&#xa;radioButton1c.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton2c">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="2c"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur2c)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton2c.setActionCommand(eur2c);&#xa;radioButton2c.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton5c">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="5c"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur5c)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton5c.setActionCommand(eur5c);&#xa;radioButton5c.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton10c">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="10c"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur10c)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton10c.setActionCommand(eur10c);&#xa;radioButton10c.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton20c">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="20c"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur20c)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton20c.setActionCommand(eur20c);&#xa;radioButton20c.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton50c">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="50c"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur50c)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton50c.setActionCommand(eur50c);&#xa;radioButton50c.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton1">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x20ac;1"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur1)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton1.setActionCommand(eur1);&#xa;radioButton1.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioButton2">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="eurButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x20ac;2"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JRadioButton(eur2)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioButton2.setActionCommand(eur2);&#xa;radioButton2.addActionListener(this);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="coinPicture">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="banknote">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Banknote"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="userTab">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Users">
+                <Property name="tabTitle" type="java.lang.String" value="Users"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="525" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="583" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel1">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="officialUserLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="unofficialUserLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="terLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="vcLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="snLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="skLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="smLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="poLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="neLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="moLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="maLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="luLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="laLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="itLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="irLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="grLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="geLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="frLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fiLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="esLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="anLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cyLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="auLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="beLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="clLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="akLabel" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="ziLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="mtLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="koLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="ncLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="spmLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="sbLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="fsLabel" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="172" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="officialUserLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="anLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="auLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="beLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cyLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="esLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="fiLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="frLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="geLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="grLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="irLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="itLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="laLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="luLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="maLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="moLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="neLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="poLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="smLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="skLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="snLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="spLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="vcLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Component id="terLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="akLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="clLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="fsLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="sbLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="spmLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="unofficialUserLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ncLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="koLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="mtLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ziLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="113" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="officialUserLabel">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Tahoma" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Official Users"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="terLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Territories"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="unofficialUserLabel">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Tahoma" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Unofficial Users"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="anLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Andorra"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="auLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Austria"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="beLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Belgium"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="cyLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cyprus"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="esLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Estonia"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="fiLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Finland"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="frLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="France"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="geLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Germany"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="grLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Greece"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="irLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Ireland"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="itLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Italy"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="laLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Latvia"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="luLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Luxembourg"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="maLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Malta"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="moLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Monaco"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="neLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="The Netherlands"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="poLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Portugal"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="smLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="San Marino"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="skLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Slovakia"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="snLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Slovenia"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="spLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Spain"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="vcLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Vatican City"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="akLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Akrotiri and Dhekelia (United Kingdom)"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="clLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Clipperton Island (France)"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="fsLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="French Southern and Antarctic Lands (France)"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="sbLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Saint Barth&#xe9;lemy (France)"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="spmLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Saint Pierre and Miquelon (France)"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="ncLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Northern Cyprus"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="koLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Kosovo"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="mtLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Montenegro"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="ziLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Zimbabwe"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="otherTab">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Other">
+                <Property name="tabTitle" type="java.lang.String" value="Other"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" pref="525" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" pref="583" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel2">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="isoLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="isoLabel2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="bankLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="bankLabel2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="pegLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="pegLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="pegLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="pegLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="pegLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="pegLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="pegLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="pegLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="pegLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="pegLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="printerLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="printerLabel2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="printerLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="inflationLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="inflationLabel2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="subunitLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="subunitLabel2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="isoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="isoLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bankLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bankLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="pegLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="pegLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pegLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pegLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pegLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="pegLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pegLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pegLabel7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pegLabel8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pegLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="subunitLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="subunitLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="inflationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="inflationLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="printerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="printerLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel12" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printerLabel14" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="isoLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="ISO 4217 Code:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="isoLabel2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="EUR"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="bankLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Central Bank:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="bankLabel2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="European Central Bank"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="pegLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Pegged by: "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="pegLabel1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Bosnia and Herzegovina convertible mark"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="pegLabel2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Bulgarian lev"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="pegLabel3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cape Verdean escudo"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="pegLabel4">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Central African CFA franc"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="pegLabel5">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="CFP franc"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="pegLabel6">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Comorian franc"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="pegLabel7">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Danish krone (&#xb1;2.25%)"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="pegLabel8">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Lithuanian litas"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="pegLabel9">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="West African CFA franc"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="subunitLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Subunit:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="subunitLabel2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="1/100 (cent)"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="inflationLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Inflation:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="inflationLabel2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="0.8%"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Printer:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Istituto Poligrafico e Zecca dello Stato"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Banco de Portugal"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Bank of Greece"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel4">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Banque de France"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel5">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Bundesdruckerei"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel6">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Central Bank and Financial Services Authority of Ireland"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel7">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="De La Rue"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel8">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="F&#xe1;brica Nacional de Moneda y Timbre"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel9">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Fran&#xe7;ois-Charles Oberthur"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel10">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Giesecke &amp; Devrient"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel11">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Royal Joh. Ensched&#xe9;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel12">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="National Bank of Belgium"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel13">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Oesterreichische Banknoten- und Sicherheitsdruck GmbH"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="printerLabel14">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Setec Oy"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="eurInfoTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Euro"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
