@@ -3,11 +3,7 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
-<<<<<<< HEAD
-            <name>PasserRating</name>
-=======
             <name>CurrencyConverter</name>
->>>>>>> d49e0d4818e38e30d665bc2eedada9d5a1f7c695
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
@@ -17,3 +13,4 @@
         </data>
     </configuration>
 </project>
+
